@@ -1,0 +1,23 @@
+/* resert */
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background: linear-gradient(35deg, #a8efc5,#a8efc5);
+}
+
+.conteiner {
+background-color: #33975d;
+max-width: 500px;
+margin: 20px auto;
+padding: 28px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(25, 70, 47, 0.5);
+
+}
