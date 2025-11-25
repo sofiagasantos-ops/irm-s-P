@@ -1,23 +1,182 @@
-/* resert */
-*  {
+/*Reset*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    background: linear-gradient(35deg, #a8efc5,#a8efc5);
+body{
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eb66a8;
+    color: white;
+    text-align: center;
 }
 
-.conteiner {
-background-color: #33975d;
-max-width: 500px;
-margin: 20px auto;
-padding: 28px;
-border-radius: 12px;
-box-shadow: 0 4px 12px rgba(25, 70, 47, 0.5);
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 10px; 
+}
+
+nav ul li{
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    transition: color;
+}
+
+nav ul li a:hover {
+    color: #eff1f2;
+}
+    
+/* Seções */
+section{
+    background-color: rgb(203, 15, 125);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #fff3f9;
+}
+
+hr{
+    border: none;
+    border-top: 1px dashed #f1ecec;
+    margin: 10px;
+}
+
+pre{
+    color: rgb(249, 238, 244);
+    background-color: #c746b2;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px;
+    padding-top: 20px;
+    border-right: 10px;
+}
+
+.code{
+    background-color: #d4649a;
+}
+
+/* /Listas */
+#lista ul li {
+    background-color: #dd87b2;
+    list-style: square inside;
+}
+
+    #list ol li{
+        list-style: decimal inside;
+    }
+
+    /*imagem*/
+#imagem img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.9s;
+}
+
+#imagem img:hover{
+    transform: scale(1.5);
+}
+
+#tabela table {
+    width: 100%;
+}
+
+#tabela thead {
+    background-color: #df69b0;
+    color: #f3f0f0;
+}
+
+#tabela thead th,
+#tabela tbody td
+#tabela tfoot td {
+    padding: 12px;
+    border: 1px solid #fcf6f6;
+}
+
+#tabela tbody{
+    text-align: center;
+    color: #fffefe;
+}
+
+#tabela tfoot{
+    background-color: #eaa3c5;
+    color: #f8f1f1;
+    text-align: center;
+    font-weight: bold;
+}
+
+#form form {
+   display: flex;
+   flex-direction: column;
+}
+
+#form form input,
+#form form select,
+#form form button {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #f8f1f1;
+}
+
+#form form button{
+    margin-top: 15px;
+    background-color: #561735;
+    color: #f8f1f1;
+    font-weight: bold;
+    width: 500px;
+    margin: 15px auto;
+}
+
+img{
+    width: 200px;
+}
+
+.img-header{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+blockquote {
+    margin-top: 30px;
+}
+
+.curiosidades{
+    max-width: 768px;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.curiosidades li{
+margin: 10px;
+}
+
+.curiosidades blockquote{
+    text-align: center;
+}
+
+.curiosidades figure{
+text-align: center;
+}
+
+.curiosidades img{
+    border-radius: 10px;
+    margin-top: 10PX;
+}
+
+footer a {
+    color: wheat;
 
 }
